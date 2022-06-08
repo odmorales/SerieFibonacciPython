@@ -8,10 +8,16 @@ class Serie:
         tmp = 0;
         serie = []
 
+        # if numero == "algo":
+        #     print("No es numero")
+        #     raise ValueError("No es un numero")
+            
+
         if numero > 0:
             serie.append(0);
         else:
-            return serie.append(0);
+            serie = [0]
+            return serie
 
         b = 1
 
